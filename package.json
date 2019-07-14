@@ -1,12 +1,19 @@
 {
   "name": "bookingapp",
   "version": "0.1.0",
-  "private": true,
+  "author": "Chhavi Khandelwal <chhavi.kh09@gmail.com>",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "reactjs",
+    "bookingapp",
+    "moviebookingapp"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
