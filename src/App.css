@@ -1,0 +1,56 @@
+.app-container{
+  margin: 10px 80px;
+}
+.header {
+  margin: 10px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid #a39f9f;
+}
+
+.seating {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-name {
+  display: flex;
+}
+
+.seat-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.seat {
+  margin-right: 5px;
+  border-radius: 3px;
+  border: 1px solid #a39f9f;
+  color: #a39f9f;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.seat.filled {
+  background-color: #a39f9f;
+  color: #fff;
+}
+
+.seat.booked {
+  background-color: green;
+  border: 1px solid green;
+  color: #fff;
+}
+
+.seat-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
